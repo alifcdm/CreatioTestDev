@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/AlifRealty/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/AlifRealty/Data/**" />
+		<Compile Remove="$(PkgPath)/AlifRealty/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/AlifRealty/Schemas\**" />
+		<Compile Remove="$(PkgPath)/AlifRealty/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AlifRealty/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AlifRealty/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AlifRealty/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AlifRealty/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AlifRealty/Resources/**" />
+		<None Remove="$(PkgPath)/AlifRealty/Assemblies/**" />
+		<None Remove="$(PkgPath)/AlifRealty/Data/**" />
+		<None Remove="$(PkgPath)/AlifRealty/SqlScripts/**" />
+		<None Remove="$(PkgPath)/AlifRealty/Schemas/**" />
+		<None Remove="$(PkgPath)/AlifRealty/Resources/**" />
+  </ItemGroup>
+</Project>

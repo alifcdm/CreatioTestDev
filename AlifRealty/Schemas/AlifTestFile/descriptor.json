@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f745faf4-6093-4542-8a77-3c18b152389c",
+    "Name": "AlifTestFile",
+    "ModifiedOnUtc": "\/Date(1745467323000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "TESTFILE",
+    "DependsOn": []
+  }
+}
